@@ -25,7 +25,7 @@ body {
     position: relative;
     padding: 20px;
     overflow: hidden;
-    animation: pulse 2s infinite alternate; /* Added pulsating animation */
+    animation: pulse 2s infinite alternate; 
 }
 
 @keyframes pulse {
@@ -150,9 +150,9 @@ nav ul li:hover::after {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
-    opacity: 0; /* Added initial opacity */
-    transform: translateY(50px); /* Added initial transform */
-    animation: fadeInUp 1s ease-out forwards; /* Added entrance animation */
+    opacity: 0; 
+    transform: translateY(50px); 
+    animation: fadeInUp 1s ease-out forwards; 
 }
 
 .gallery img,
@@ -250,7 +250,7 @@ nav ul li:hover::after {
     animation-delay: 0.2s;
 }
 
-/* Previous CSS styles remain unchanged */
+
 
 .contact-section {
     text-align: center;
@@ -259,8 +259,8 @@ nav ul li:hover::after {
     background: linear-gradient(135deg, #3498db, #e74c3c);
     border-radius: 10px;
     margin-top: 50px;
-    opacity: 0; /* Initial opacity for animation */
-    transform: translateY(50px); /* Initial transform for animation */
+    opacity: 0; 
+    transform: translateY(50px); 
     animation: fadeInUp 1s ease-out forwards, slideIn 1s ease-out forwards, backgroundAnimation 8s infinite;
 }
 
@@ -335,4 +335,3 @@ nav ul li:hover::after {
     }
 }
 
-/* Other styles remain unchanged */
